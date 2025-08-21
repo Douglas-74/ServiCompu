@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servi Compu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar navbar-dark" style="background-color: #060611;">
+        <div class="container-fluid">
+            <a class="navbar-brand cursor-none" href="#">
+                <img src="img/logo1.png" alt="logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    <a class="nav-link active" href="#categorias">Productos</a>
+                    <a class="nav-link active" href="#servicios">Servicios</a>
+                    <a class="nav-link active" href="#nosotros">Nosotros</a>
+                    <a class="nav-link active" href="#contacto" tabindex="-1">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid position-relative" id="home">
+        <div class="fondo"></div>
+        <div class="row align-items-center m-0">
+            <div class="col-sm-12 col-md-5 text-center">
+                <h1 class="my-4" style="color: #50b5f8;">SERVI <span class="position-relative p-2" id="spanColor" style="color: #645785;">COMPU</span></h1>
+                <p class="m-2">Es una empresa nacional dedicada a ofrecer soluciones tecnológicas accesibles. Ofrecemos también una gran variedad de productos tecnológicos de alta calidad, diseñados para satisfacer las necesidades de nuestros clientes y potenciar su crecimiento digital.</p>
+            </div>
+            <div class="col-sm-12 col-md-7">
+                <div class="container-fluid my-3 p-0">
+                    <div class="row">
+                        <div class="col-6 my-1 px-1">
+                            <img src="./img/1.webp" class="img-izquierda" alt="laptop-gamer" data-aos-offset="0" data-aos="zoom-in" data-aos-duration="1500">
+                        </div>
+                        <div class="col-6 my-1 px-1">
+                            <img src="./img/2.webp" class="img-derecha" alt="cpu-gamer" data-aos-offset="0" data-aos="zoom-in" data-aos-duration="1500">
+                        </div>
+                        <div class="col-12 my-1 px-1">
+                            <img src="./img/3.webp" class="img-medio" alt="pc-gamer" data-aos-offset="0" data-aos="zoom-in" data-aos-duration="1500">
+                        </div>
+                        <div class="col-6 my-1 px-1">
+                            <img src="./img/4.webp" class="img-izquierda" alt="mant-prev" data-aos-offset="0" data-aos="zoom-in" data-aos-duration="1500">
+                        </div>
+                        <div class="col-6 my-1 px-1">
+                            <img src="./img/5.webp" class="img-derecha" alt="mant-corr" data-aos-offset="0" data-aos="zoom-in" data-aos-duration="1500">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid p-3" style="background-color: #261b5b; overflow: hidden;">
+        <h2 class="text-center m-3" id="categorias">NUESTROS PRODUCTOS</h2>
+        <div class="row p-2">
+            <div class="col-6 col-md-3 px-2 carding" data-aos="slide-right" data-aos-duration="1000">
+                <a href="#" class="text-decoration-none">
+                    <div class="card my-2 border-0">
+                        <img src="img/laptop.webp" class="card-img" alt="compu">
+                        <div class="card-body p-2">
+                            <h5 class="card-title m-0 text-center">COMPUTADORAS Y LAPTOPS</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3 px-2 carding" data-aos="slide-right" data-aos-duration="1000">
+                <a href="#" class="text-decoration-none">
+                    <div class="card my-2 border-0">
+                        <img src="img/ram.webp" class="card-img" alt="compo">
+                        <div class="card-body p-2">
+                            <h5 class="card-title m-0 text-center">COMPONENTES DE HARDWARE</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3 px-2 carding" data-aos="slide-left" data-aos-duration="1000">
+                <a href="#" class="text-decoration-none">
+                    <div class="card my-2 border-0">
+                        <img src="img/accesorios.webp" class="card-img" alt="acceso">
+                        <div class="card-body p-2">
+                            <h5 class="card-title m-0 text-center">PERIFÉRICOS Y ACCESORIOS</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3 px-2 carding" data-aos="slide-left" data-aos-duration="1000">
+                <a href="#" class="text-decoration-none">
+                    <div class="card my-2 border-0">
+                        <img src="img/routers.webp" class="card-img" alt="conect">
+                        <div class="card-body p-2">
+                            <h5 class="card-title m-0 text-center">REDES Y CONECTIVIDAD</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3 px-2 carding" data-aos="slide-right" data-aos-duration="1000">
+                <a href="#" class="text-decoration-none">
+                    <div class="card my-2 border-0">
+                        <img src="img/impresoras.webp" class="card-img" alt="impres">
+                        <div class="card-body p-2">
+                            <h5 class="card-title m-0 text-center">IMPRESORAS Y CONSUMIBLES</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3 px-2 carding" data-aos="slide-right" data-aos-duration="1000">
+                <a href="#" class="text-decoration-none">
+                    <div class="card my-2 border-0">
+                        <img src="img/almacenamiento.webp" class="card-img" alt="almace">
+                        <div class="card-body p-2">
+                            <h5 class="card-title m-0 text-center">DISPOSITIVOS DE ALMACENAMIENTO</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3 px-2 carding" data-aos="slide-left" data-aos-duration="1000">
+                <a href="#" class="text-decoration-none">
+                    <div class="card my-2 border-0">
+                        <img src="img/seguridad.webp" class="card-img" alt="seguri">
+                        <div class="card-body p-2">
+                            <h5 class="card-title m-0 text-center">DISPOSITIVOS DE SEGURIDAD</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-md-3 px-2 carding" data-aos="slide-left" data-aos-duration="1000">
+                <a href="#" class="text-decoration-none">
+                    <div class="card my-2 border-0">
+                        <img src="img/juegos.webp" class="card-img" alt="juegos">
+                        <div class="card-body p-2">
+                            <h5 class="card-title m-0 text-center m-0">ACCESORIOS PARA JUEGOS</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid p-3" style="background-color: #141135;">
+        <h2 class="text-center m-3 pb-2" id="servicios">NUESTROS SERVICIOS</h2>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide m-4" data-bs-ride="carousel" data-aos="zoom-in" data-aos-duration="1500">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner px-4">
+                <a href="soporte.html">
+                    <div class="carousel-item active" data-bs-interval="8000">
+                        <img src="img/soporte_tecnico.webp" class="carousel-img" style="opacity: 0.8;" alt="...">
+                        <div class="carousel-caption">
+                            <h5 class="text-white" style="text-shadow: 4px 4px 10px black;">SOPORTE TÉCNICO</h5>
+                            <p class="text-center item-contorno">Brindamos solución a problemas técnicos relacionados con productos o servicios, como software, hardware o sistemas.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="seguridad.html">
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="img/installation.jpg" class="carousel-img" style="opacity: 0.8;" alt="...">
+                        <div class="carousel-caption">
+                            <h5 class="text-white" style="text-shadow: 4px 4px 10px black;">SEGURIDAD Y VIDEOVIGILANCIA</h5>
+                            <p class="text-center item-contorno">Estos servicios incluyen la instalación cámaras, monitoreo continuo, grabación de vídeos y respuesta inmediata ante incidentes, adaptándose a las necesidades específicas de cada cliente.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="desarrollo.html">
+                    <div class="carousel-item">
+                        <img src="img/desarrollo.jpg" class="carousel-img" style="opacity: 0.8;" alt="...">
+                        <div class="carousel-caption">
+                            <h5 class="text-white" style="text-shadow: 4px 4px 10px black;">DESARROLLO Y DISEÑO GRÁFICO</h5>
+                            <p class="text-center item-contorno">Nos enfocamos en crear y desarrollar sitios web atractivos, funcionales y efectivos para los clientes, ofreciendo servicios que incluyen diseño gráfico, desarrollo web, experiencia de usuario y estrategia digital.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container-fluid text-center p-3" style="background-color: #261b5b">
+        <h2 class="text-center m-3 pb-2" id="nosotros">SOBRE NOSOTROS</h2>
+        <div class="row">
+            <div class="col-6 d-flex flex-column">
+                <div class="card flex-fill" style="background-color: #3455c3;">
+                    <div class="card-body">
+                        <h5 class="card-title">MISIÓN</h5>
+                        <p class="card-text">Proporcionar servicios informáticos integrales, desde reparación y mantenimiento de hardware hasta asesoría en soluciones tecnológicas, con un compromiso de excelencia, atención personalizada y precios accesibles para apoyar el crecimiento tecnológico de nuestra comunidad local.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 d-flex flex-column">
+                <div class="card flex-fill" style="background-color: #3455c3;">
+                    <div class="card-body">
+                        <h5 class="card-title">VISIÓN</h5>
+                        <p class="card-text">Ser reconocidos como el principal centro de servicios informáticos confiable y de calidad en nuestra comunidad, brindando soluciones innovadoras que impulsen el desarrollo tecnológico y el bienestar digital de nuestros clientes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 my-3">
+                <div class="card" style="background-color: #3455c3;">
+                    <h5 class="card-title mt-3">NUESTRO EQUIPO</h5>
+                    <div class="card-body d-flex align-items-center pt-0 pb-3 px-3">
+                        <img src="img/equipo.webp" class="img-thumbnail me-3" alt="..." style="max-width: 210px; height: auto;" data-aos="zoom-in" data-aos-duration="1500">
+                        <div>
+                            <p class="card-text">Somos un proyecto local dedicado a ofrecer soluciones tecnológicas accesibles y de calidad. Con un enfoque en la atención personalizada y la innovación, nuestro objetivo es satisfacer las necesidades tecnológicas de nuestros vecinos y negocios, ayudándolos a optimizar sus recursos y mantenerse actualizados en un mundo cada vez más digital.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <div class="container-fluid p-3 pb-4" style="background-color: #141135">
+        <h2 class="text-center m-3 pb-2" id="contacto">CONTACTO</h2>
+        <div class="row align-items-center">
+            <div class="col-6 col-md-5 col-lg-4 px-3">
+                <h5>Información de Contacto</h5>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-map-marker-alt me-2" style="margin-left: 2px; padding-right: 2px;"></i> Guayaquil, Flor de Bastión</li>
+                    <li><i class="fas fa-envelope me-2"></i> servicios@gmail.com</li>
+                    <li><i class="fas fa-phone me-2"></i> +593 95-968-6257</li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-7 col-lg-8 px-3">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1993.4030956129077!2d-80.92240691184996!3d-2.226512762024186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902e0ee78c838079%3A0x93d2d81f2c438339!2sEl%20Paseo%20Shopping%20La%20Peninsula!5e0!3m2!1ses-419!2sec!4v1752820914021!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-aos="zoom-in" data-aos-duration="1500"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer p-2 text-center" style="background-color: #0f0c25;">
+        <div class="container">
+            <div class="row mt-2 align-items-center">
+                <div class="col-6">
+                    <h5 class="m-3">SOBRE NOSOTROS</h5>
+                    <p>Somos un equipo dedicado a ofrecer las mejores soluciones tecnológicas accesibles y de calidad. Ofrecemos una variedad de productos tecnológicos de alta calidad.</p>
+                </div>
+                <div class="col-6">
+                    <h5 class="m-3">SÍGUENOS</h5>
+                    <ul class="list-inline redes-sociales">
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-tiktok"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="mb-1">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="text-center m-0">&copy; Servi Compu. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button type="button" class="btn-whatsapp">
+        <a href="#" id="whatsapp-link"><i class="fab fa-whatsapp"></i></a>
+    </button>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
