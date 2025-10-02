@@ -189,4 +189,8 @@ footer hr {
     .carousel-img, .card-img-page {
         height: 300px;
     }
+
+    .img-izquierda, .img-medio, .img-derecha {
+        height: 150px;
+    }
 }
